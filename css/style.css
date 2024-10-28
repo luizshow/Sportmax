@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Poppins", serif;
+}
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+.header-img {
+  width: 150px;
+}
+header {
+  background-color: #000;
+}
+.header-title {
+  font-size: 2rem;
+  margin: 0;
+}
+.header-subtitle {
+  font-size: 1.25rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.btn-align-bottom {
+  margin-top: auto;
+}
+.footer {
+  background-color: #343a40;
+  padding: 40px 0;
+}
+.footer .container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-info p {
+  margin-bottom: 0.5rem;
+}
+.footer ul {
+  padding-left: 0;
+}
+.footer ul li {
+  margin-bottom: 0.5rem;
+}
+.social-icons a {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  color: #ddd;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
